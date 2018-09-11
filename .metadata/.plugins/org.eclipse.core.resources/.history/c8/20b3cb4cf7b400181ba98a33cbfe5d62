@@ -1,0 +1,19 @@
+package Org.Bhavya.HRApplication.HRApp.Exception;
+
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.Status;
+import javax.ws.rs.ext.ExceptionMapper;
+import javax.ws.rs.ext.Provider;
+
+import Org.Bhavya.Infosys.HRApplication.Model.ErrorMessage;
+
+@Provider
+public class EmployeeNotFoundExceptionMapper implements ExceptionMapper<EmployeeNotFoundException> {
+
+	@Override
+	public Response toResponse(EmployeeNotFoundException exception) {
+		ErrorMessage em = new ErrorMessage(exception.getMessage(), 404, "Org.Bhavya.Infosys.HRApplication");
+		return Response.status(Status.NOT_FOUND).entity(em).build();
+	}
+
+}

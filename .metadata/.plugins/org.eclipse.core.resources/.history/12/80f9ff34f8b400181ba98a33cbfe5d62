@@ -1,0 +1,10 @@
+package Org.Bhavya.HRApplication.HRApp.Exception;
+
+public class EmployeeNotFoundExceptionMapper {
+
+	@Override
+	public Response toResponse(EmployeeNotFoundException exception) implements ExceptionMapper<EmployeeNotFoundException>  {
+		ErrorMessage em = new ErrorMessage(exception.getMessage(), 404, "Org.Bhavya.Infosys.HRApplication");
+		return Response.status(Status.NOT_FOUND).entity(em).build();
+	}
+}

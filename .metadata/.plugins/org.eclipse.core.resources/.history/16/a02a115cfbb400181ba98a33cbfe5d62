@@ -1,0 +1,5 @@
+package Org.Bhavya.HRApplication.HRApp.Exception;
+
+public class EmployeeNotFoundException {
+
+}

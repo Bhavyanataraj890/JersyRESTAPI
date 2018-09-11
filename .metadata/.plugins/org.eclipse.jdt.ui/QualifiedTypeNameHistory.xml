@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Org.Bhavya.HRApplication.HRApp.Database.EmployeeDatabase"/>
+<fullyQualifiedTypeName name="Org.Bhavya.HRApplication.HRApp.Model.Address"/>
+<fullyQualifiedTypeName name="Org.Bhavya.HRApplication.HRApp.Model.Employee"/>
+<fullyQualifiedTypeName name="Org.Bhavya.HRApplication.HRApp.Model.Contact"/>
+<fullyQualifiedTypeName name="Org.Bhavya.HRApplication.HRApp.Service.EmployeeService"/>
+<fullyQualifiedTypeName name="Org.Bhavya.HRApplication.HRApp.Exception.EmployeeNotFoundException"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Configurable"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+</qualifiedTypeNameHistroy>

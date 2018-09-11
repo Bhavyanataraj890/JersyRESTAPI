@@ -1,0 +1,5 @@
+package Org.Bhavya.HRApplication.HRApp.Database;
+
+public class EmployeeDatabase {
+
+}
